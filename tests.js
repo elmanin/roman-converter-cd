@@ -1,4 +1,4 @@
-/* global chai, integerToRoman, romanToInteger */
+/*integerToRoman, romanToInteger */
 // tests.js
 
 // Use Chai's expect for assertions
