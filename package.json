@@ -2,7 +2,7 @@
   "name": "roman-converter",
   "version": "1.0.0",
   "scripts": {
-    "test": "mocha-headless-chrome -f test.html --no-sandbox",
+    "test": "mocha-headless-chrome -f test.html -a no-sandbox -a disable-setuid-sandbox",
     "lint": "eslint script.js tests.js"
   },
   "devDependencies": {
